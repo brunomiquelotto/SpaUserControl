@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28531.58
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaUserControl.Domain", "DDD\SpaUserControl.Domain.csproj", "{BDB935AC-6C98-41C5-A084-73A08C757CA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaUserControl.Tests", "SpaUserControl.Tests\SpaUserControl.Tests.csproj", "{0BEFB263-91B9-4F60-B96E-E5DD7341B895}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaUserControl.Tests", "SpaUserControl.Tests\SpaUserControl.Tests.csproj", "{0BEFB263-91B9-4F60-B96E-E5DD7341B895}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaUserControl.Common", "SpaUserControl.Common\SpaUserControl.Common.csproj", "{087497E0-D449-406F-AE90-49B76C65E093}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaUserControl.Common", "SpaUserControl.Common\SpaUserControl.Common.csproj", "{087497E0-D449-406F-AE90-49B76C65E093}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaUserControl.Domain", "SpaUserControl.Domain\SpaUserControl.Domain.csproj", "{D2681394-E6EC-477C-A471-ACA6985775EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BDB935AC-6C98-41C5-A084-73A08C757CA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BDB935AC-6C98-41C5-A084-73A08C757CA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BDB935AC-6C98-41C5-A084-73A08C757CA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BDB935AC-6C98-41C5-A084-73A08C757CA9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0BEFB263-91B9-4F60-B96E-E5DD7341B895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0BEFB263-91B9-4F60-B96E-E5DD7341B895}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BEFB263-91B9-4F60-B96E-E5DD7341B895}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +23,10 @@ Global
 		{087497E0-D449-406F-AE90-49B76C65E093}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{087497E0-D449-406F-AE90-49B76C65E093}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{087497E0-D449-406F-AE90-49B76C65E093}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2681394-E6EC-477C-A471-ACA6985775EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2681394-E6EC-477C-A471-ACA6985775EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2681394-E6EC-477C-A471-ACA6985775EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2681394-E6EC-477C-A471-ACA6985775EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
