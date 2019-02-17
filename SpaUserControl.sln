@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaUserControl.Domain", "DD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaUserControl.Tests", "SpaUserControl.Tests\SpaUserControl.Tests.csproj", "{0BEFB263-91B9-4F60-B96E-E5DD7341B895}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaUserControl.Common", "SpaUserControl.Common\SpaUserControl.Common.csproj", "{087497E0-D449-406F-AE90-49B76C65E093}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0BEFB263-91B9-4F60-B96E-E5DD7341B895}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BEFB263-91B9-4F60-B96E-E5DD7341B895}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BEFB263-91B9-4F60-B96E-E5DD7341B895}.Release|Any CPU.Build.0 = Release|Any CPU
+		{087497E0-D449-406F-AE90-49B76C65E093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{087497E0-D449-406F-AE90-49B76C65E093}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{087497E0-D449-406F-AE90-49B76C65E093}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{087497E0-D449-406F-AE90-49B76C65E093}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
