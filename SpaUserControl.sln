@@ -4,10 +4,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.28531.58
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaUserControl.Tests", "SpaUserControl.Tests\SpaUserControl.Tests.csproj", "{0BEFB263-91B9-4F60-B96E-E5DD7341B895}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D2681394-E6EC-477C-A471-ACA6985775EF} = {D2681394-E6EC-477C-A471-ACA6985775EF}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaUserControl.Common", "SpaUserControl.Common\SpaUserControl.Common.csproj", "{087497E0-D449-406F-AE90-49B76C65E093}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaUserControl.Domain", "SpaUserControl.Domain\SpaUserControl.Domain.csproj", "{D2681394-E6EC-477C-A471-ACA6985775EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaUserControl.Infraestructure", "SpaUserControl.Infraestructure\SpaUserControl.Infraestructure.csproj", "{E2A58CAC-65A5-4369-93D4-1699E2991954}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaUserControl.Console", "SpaUserControl.Console\SpaUserControl.Console.csproj", "{E8C3386B-3E49-4A46-B20F-D1A78E7E6A91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +34,14 @@ Global
 		{D2681394-E6EC-477C-A471-ACA6985775EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2681394-E6EC-477C-A471-ACA6985775EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2681394-E6EC-477C-A471-ACA6985775EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2A58CAC-65A5-4369-93D4-1699E2991954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2A58CAC-65A5-4369-93D4-1699E2991954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2A58CAC-65A5-4369-93D4-1699E2991954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2A58CAC-65A5-4369-93D4-1699E2991954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8C3386B-3E49-4A46-B20F-D1A78E7E6A91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8C3386B-3E49-4A46-B20F-D1A78E7E6A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8C3386B-3E49-4A46-B20F-D1A78E7E6A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8C3386B-3E49-4A46-B20F-D1A78E7E6A91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

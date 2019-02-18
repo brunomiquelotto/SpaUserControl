@@ -6,16 +6,22 @@ namespace SpaUserControl.Domain.Models
 {
     public class User
     {
-        public int Id { get; private set; }
+        public Guid Id { get; private set; }
         public string Name { get; private set; }
         public string Email { get; private set; }
         public string Password { get; private set; }
+
+        protected User()
+        {
+
+        }
 
         public User(string name, string email)
         {
             AssertionConcern.AssertArgumentNotEmpty(name, "Nome não pode ser vazio.");
             AssertionConcern.AssertArgumentNotEmpty(email, "E-mail não pode ser vazio.");
             
+            this.Id = Guid.NewGuid();
             this.Name = name;
             this.Email = email;
         }
@@ -33,6 +39,10 @@ namespace SpaUserControl.Domain.Models
             string pass = Guid.NewGuid().ToString();
             this.Password = pass;
             return pass;
+        }
+        
+        public void Validate()
+        {
         }
     }
 }
